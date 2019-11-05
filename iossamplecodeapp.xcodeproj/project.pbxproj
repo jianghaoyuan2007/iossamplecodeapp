@@ -24,6 +24,10 @@
 		2C7A9B5C23705CC400FA3B78 /* SCNWaterfallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A9B5A23705CC400FA3B78 /* SCNWaterfallCollectionViewCell.m */; };
 		2C7A9B5D23705CC400FA3B78 /* SCNWaterfallCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7A9B5B23705CC400FA3B78 /* SCNWaterfallCollectionViewCell.xib */; };
 		2C7A9B6023705D0D00FA3B78 /* SCNWaterfallCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A9B5F23705D0D00FA3B78 /* SCNWaterfallCollectionViewLayout.m */; };
+		2C7A9B6623711A0100FA3B78 /* .gitkeeper in Resources */ = {isa = PBXBuildFile; fileRef = 2C7A9B6323711A0100FA3B78 /* .gitkeeper */; };
+		2C7A9B6823711AE300FA3B78 /* PageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7A9B6723711AE300FA3B78 /* PageViewController.storyboard */; };
+		2C7A9B6A23711BED00FA3B78 /* CollectionViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7A9B6923711BED00FA3B78 /* CollectionViews.storyboard */; };
+		2C7A9B6D23713ECA00FA3B78 /* SCNSimplePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A9B6C23713ECA00FA3B78 /* SCNSimplePageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,11 @@
 		2C7A9B5B23705CC400FA3B78 /* SCNWaterfallCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCNWaterfallCollectionViewCell.xib; sourceTree = "<group>"; };
 		2C7A9B5E23705D0D00FA3B78 /* SCNWaterfallCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNWaterfallCollectionViewLayout.h; sourceTree = "<group>"; };
 		2C7A9B5F23705D0D00FA3B78 /* SCNWaterfallCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNWaterfallCollectionViewLayout.m; sourceTree = "<group>"; };
+		2C7A9B6323711A0100FA3B78 /* .gitkeeper */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeeper; sourceTree = "<group>"; };
+		2C7A9B6723711AE300FA3B78 /* PageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PageViewController.storyboard; sourceTree = "<group>"; };
+		2C7A9B6923711BED00FA3B78 /* CollectionViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CollectionViews.storyboard; sourceTree = "<group>"; };
+		2C7A9B6B23713ECA00FA3B78 /* SCNSimplePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNSimplePageViewController.h; sourceTree = "<group>"; };
+		2C7A9B6C23713ECA00FA3B78 /* SCNSimplePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNSimplePageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				2C7A9B3D236FF7DA00FA3B78 /* Collection Views */,
+				2C7A9B6123711A0100FA3B78 /* Page View Controller */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -223,6 +233,7 @@
 				2C7A9B42236FF82500FA3B78 /* SCNSimpleCollectionViewController.m */,
 				2C7A9B5323705A4900FA3B78 /* SCNWaterfallCollectionViewController.h */,
 				2C7A9B5423705A4900FA3B78 /* SCNWaterfallCollectionViewController.m */,
+				2C7A9B6923711BED00FA3B78 /* CollectionViews.storyboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -239,6 +250,41 @@
 				2C7A9B5923705CC400FA3B78 /* SCNWaterfallCollectionViewCell.h */,
 				2C7A9B5A23705CC400FA3B78 /* SCNWaterfallCollectionViewCell.m */,
 				2C7A9B5B23705CC400FA3B78 /* SCNWaterfallCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C7A9B6123711A0100FA3B78 /* Page View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C7A9B6223711A0100FA3B78 /* Models */,
+				2C7A9B6423711A0100FA3B78 /* Controllers */,
+				2C7A9B6523711A0100FA3B78 /* Views */,
+			);
+			path = "Page View Controller";
+			sourceTree = "<group>";
+		};
+		2C7A9B6223711A0100FA3B78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C7A9B6323711A0100FA3B78 /* .gitkeeper */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C7A9B6423711A0100FA3B78 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C7A9B6723711AE300FA3B78 /* PageViewController.storyboard */,
+				2C7A9B6B23713ECA00FA3B78 /* SCNSimplePageViewController.h */,
+				2C7A9B6C23713ECA00FA3B78 /* SCNSimplePageViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C7A9B6523711A0100FA3B78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,8 +370,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7A9B6823711AE300FA3B78 /* PageViewController.storyboard in Resources */,
 				2C7A9B32236FF55A00FA3B78 /* Main.storyboard in Resources */,
 				2C7A9B48236FF93500FA3B78 /* SCNSimpleCollectionViewCell.xib in Resources */,
+				2C7A9B6A23711BED00FA3B78 /* CollectionViews.storyboard in Resources */,
+				2C7A9B6623711A0100FA3B78 /* .gitkeeper in Resources */,
 				2C7A9B5D23705CC400FA3B78 /* SCNWaterfallCollectionViewCell.xib in Resources */,
 				2C7A9B522370486700FA3B78 /* SCNSimpleCollectionViewHeaderView.xib in Resources */,
 				2C7A9B3B236FF55A00FA3B78 /* Assets.xcassets in Resources */,
@@ -347,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7A9B6D23713ECA00FA3B78 /* SCNSimplePageViewController.m in Sources */,
 				2C7A9B34236FF55A00FA3B78 /* AppDelegate.m in Sources */,
 				2C7A9B35236FF55A00FA3B78 /* SCNSceneDelegate.m in Sources */,
 				2C7A9B47236FF93500FA3B78 /* SCNSimpleCollectionViewCell.m in Sources */,
