@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2C41148A23729198006A1F58 /* SCNSimpleCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C41148923729198006A1F58 /* SCNSimpleCategoryViewController.m */; };
 		2C41148C237291B6006A1F58 /* JXCategoryView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C41148B237291B6006A1F58 /* JXCategoryView.storyboard */; };
+		2C4114982372B7AD006A1F58 /* CADisplayLink.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4114972372B7AD006A1F58 /* CADisplayLink.storyboard */; };
+		2C41149B2372B7D4006A1F58 /* SCNFPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C41149A2372B7D4006A1F58 /* SCNFPSViewController.m */; };
 		2C7A9B0D236FF51600FA3B78 /* iossamplecodeappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A9B0C236FF51600FA3B78 /* iossamplecodeappTests.m */; };
 		2C7A9B31236FF55A00FA3B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7A9B1C236FF55900FA3B78 /* LaunchScreen.storyboard */; };
 		2C7A9B32236FF55A00FA3B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7A9B1E236FF55900FA3B78 /* Main.storyboard */; };
@@ -53,6 +55,9 @@
 		2C41148823729198006A1F58 /* SCNSimpleCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNSimpleCategoryViewController.h; sourceTree = "<group>"; };
 		2C41148923729198006A1F58 /* SCNSimpleCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNSimpleCategoryViewController.m; sourceTree = "<group>"; };
 		2C41148B237291B6006A1F58 /* JXCategoryView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JXCategoryView.storyboard; sourceTree = "<group>"; };
+		2C4114972372B7AD006A1F58 /* CADisplayLink.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CADisplayLink.storyboard; sourceTree = "<group>"; };
+		2C4114992372B7D4006A1F58 /* SCNFPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNFPSViewController.h; sourceTree = "<group>"; };
+		2C41149A2372B7D4006A1F58 /* SCNFPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNFPSViewController.m; sourceTree = "<group>"; };
 		2C7A9AED236FF51400FA3B78 /* iossamplecodeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iossamplecodeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7A9B08236FF51600FA3B78 /* iossamplecodeappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iossamplecodeappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7A9B0C236FF51600FA3B78 /* iossamplecodeappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iossamplecodeappTests.m; sourceTree = "<group>"; };
@@ -156,6 +161,40 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		2C41148D2372B755006A1F58 /* CADisplayLink */ = {
+			isa = PBXGroup;
+			children = (
+				2C41148E2372B755006A1F58 /* Models */,
+				2C4114902372B755006A1F58 /* Controllers */,
+				2C4114922372B755006A1F58 /* Views */,
+			);
+			path = CADisplayLink;
+			sourceTree = "<group>";
+		};
+		2C41148E2372B755006A1F58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C4114902372B755006A1F58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C4114972372B7AD006A1F58 /* CADisplayLink.storyboard */,
+				2C4114992372B7D4006A1F58 /* SCNFPSViewController.h */,
+				2C41149A2372B7D4006A1F58 /* SCNFPSViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C4114922372B755006A1F58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2C7A9AE4236FF51300FA3B78 = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +264,7 @@
 		2C7A9B24236FF55900FA3B78 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				2C41148D2372B755006A1F58 /* CADisplayLink */,
 				2C7A9B3D236FF7DA00FA3B78 /* Collection Views */,
 				2C41147E23729170006A1F58 /* JXCategoryView */,
 				2C7A9B6123711A0100FA3B78 /* Page View Controller */,
@@ -504,6 +544,7 @@
 				2C7A9B5D23705CC400FA3B78 /* SCNWaterfallCollectionViewCell.xib in Resources */,
 				2C7A9B522370486700FA3B78 /* SCNSimpleCollectionViewHeaderView.xib in Resources */,
 				2C41148C237291B6006A1F58 /* JXCategoryView.storyboard in Resources */,
+				2C4114982372B7AD006A1F58 /* CADisplayLink.storyboard in Resources */,
 				2C7A9B3B236FF55A00FA3B78 /* Assets.xcassets in Resources */,
 				2C7A9B31236FF55A00FA3B78 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -600,6 +641,7 @@
 				2C7A9B5C23705CC400FA3B78 /* SCNWaterfallCollectionViewCell.m in Sources */,
 				2C7A9B33236FF55A00FA3B78 /* main.m in Sources */,
 				2C7A9B7C23714A3A00FA3B78 /* SCNSimpleListItem.m in Sources */,
+				2C41149B2372B7D4006A1F58 /* SCNFPSViewController.m in Sources */,
 				2C7A9B5823705C1B00FA3B78 /* SCNWaterfallCollectionViewItem.m in Sources */,
 				2C7A9B43236FF82500FA3B78 /* SCNSimpleCollectionViewController.m in Sources */,
 			);
